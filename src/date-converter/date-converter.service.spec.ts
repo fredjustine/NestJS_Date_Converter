@@ -24,14 +24,14 @@ describe('DateConverterService', () => {
       expect(service.ConvertDate(day, month, year)).toBe('XX/X/MMXX');
     })
 
-    it('should throw an error because there is a 0', () => {
+    /*it('should throw an error because there is a 0', () => {
       const day = 0;
       const month = 10;
       const year = 2020;
       expect(service.ConvertDate(day, month, year)).toThrow();
     })
 
-/*     it('should throw an error because there is a 0', () => {
+    it('should throw an error because there is a 0', () => {
       const day = 20;
       const month = 0;
       const year = 2020;
