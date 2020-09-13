@@ -31,4 +31,4 @@ $ npm run start:prod
 
 Lorsque l'app est lancée, tester une URL du style suivant :
 http://localhost:3000/date-converter/29/03/2021
-Avec 29 le jour, 03 le mois et 2021 l'année
+--> avec 29 le jour, 03 le mois et 2021 l'année
