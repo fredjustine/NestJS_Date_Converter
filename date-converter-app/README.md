@@ -14,13 +14,7 @@
 
 API REST pour convertir une date composées de nombres arabes en une date composées de nombres romains.
 
-## Installation
-
-```bash
-$ npm install
-```
-
-## Running the app
+## Lancement de l'app
 
 ```bash
 # development
@@ -33,15 +27,8 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+## Utilisation
 
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
+Lorsque l'app est lancée, tester une URL du style suivant :
+http://localhost:3000/date-converter/29/03/2021
+Avec 29 le jour, 03 le mois et 2021 l'année
